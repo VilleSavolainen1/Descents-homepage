@@ -1,0 +1,312 @@
+.navigation {
+    margin: 0 auto;
+    background: rgb(33, 44, 61);
+    box-shadow: rgba(0, 0, 0, 0.342) 0px 2px 3px 2px;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+
+#nav {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-inner {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#link {
+    justify-content: flex-end;
+    color: #92abcf;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 15px;
+}
+
+#link:hover {
+    color: #fff;
+}
+
+
+.nav-links {
+    margin-left: 25px;
+    padding: 5px;
+    display: flex;
+}
+
+.nav-right {
+    margin-left: auto;
+    display: flex;
+    margin-right: 15px;
+    float: left;
+    justify-content: flex-end;
+}
+
+.uploadform{
+    margin-top: 20px;
+    height: 70px;
+}
+
+.uploadform_form{
+    background: #000;
+    border: 1px solid #454d58;
+    border-radius: 6px;
+    padding: 1px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.uploadform_form:focus{
+    outline: none;
+    box-shadow: 0 0 20px #80f0ff;
+}
+
+.form-submit{
+    background: rgb(17, 236, 229);
+    border: 1px solid rgb(17, 236, 229);
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    margin: 2px;
+}
+
+.form-submit:hover{
+    background: rgb(175, 236, 234);
+    border: 1px solid rgb(175, 236, 234);
+}
+
+.error{
+    color: rgb(255, 126, 126);
+}
+
+.folderview {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 600px;
+}
+
+#foldernameinput{
+    background: #000;
+    color: #fff;
+    border: 1px solid #92abcf;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+#foldernameinput:focus {
+    outline: none;
+    box-shadow: 0 0 20px #80f0ff;
+  }
+
+::placeholder{
+    color: rgb(52, 90, 100);
+    opacity: 1;
+}
+
+#foldernamebutton{
+    background: rgb(17, 236, 229);
+    border: 1px solid rgb(17, 236, 229);
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    margin: 2px;
+}
+
+#foldernamebutton:hover{
+    background: rgb(175, 236, 234);
+    border: 1px solid rgb(175, 236, 234);
+}
+
+.foldernamelink:hover{
+    color: #fff;
+}
+
+.newFolder{
+    
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(18, 24, 34) none repeat scroll 0% 0%;
+}
+
+
+.list {
+    list-style: none;
+    font-weight: 550;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list:hover {
+    color: #fff;
+}
+
+.folderimage {
+    width: 34px;
+}
+
+.filetable {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.filetable_audio{
+    display: block;
+    background: rgb(11, 18, 30) none repeat scroll 0% 0%;
+    border: 1px solid rgb(33, 50, 78);
+    border-radius: 4px;
+}
+
+.filetable_audio:hover{
+    border: 1px solid rgb(55, 81, 122);
+    background: rgb(16, 27, 44) none repeat scroll 0% 0%;
+}
+
+.audiolist {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #192536;
+    width: 95%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.load_delete{
+    display: flex;
+}
+
+.audiolist_list{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.audioinfo{
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.audiobutton {
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    height: 30px;
+    width: 60px;
+    color: #92abcf;
+}
+
+.audiotitle{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 120px;
+}
+
+.audiobutton:hover{
+    color: rgb(133, 202, 124);
+}
+
+.deletebutton {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    height: 30px;
+    width: 60px;
+    color: #92abcf;
+}
+
+.deletebutton:hover{
+    color: rgb(255, 126, 126);
+}
+
+.deletefolderbutton{
+    background: transparent;
+    border: 1px solid #1d1d1d;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    height: 25px;
+}
+
+.deletefolderbutton:hover{
+    background: rgb(255, 126, 126);
+    border: 1px solid rgb(255, 126, 126);
+}
+
+.folderheader{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 112px;
+}
+
+.Progress {
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+@media(max-width: 800px){
+    .folderview {
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
+        justify-content: flex-start;
+    }
+
+    .folderimage{
+        width: 25px;
+    }
+
+    .foldernamelink{
+        font-size: 12px;
+    }
+
+    .filetable{
+        width: 100%;
+    }
+
+    .audiolist{
+        width: 300px;
+        display: block;
+    }
+}

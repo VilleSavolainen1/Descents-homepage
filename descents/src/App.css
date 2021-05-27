@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+}
+
+.App-header2{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main {
+  height: 100%;
+}
+
+.folderview {
+  display: flex;
+  width: 100%;
+}
+
+.App-login{
+  margin-top: 200px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #92abcf;
+  width: 500px;
+  padding: 18px 31px 8px 29px;
+  background-color: rgb(7, 13, 23);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 30px, rgb(56, 125, 123) 0px 0px 15px 5px;
+  border-radius: 6px;
+  height: 100px;
+}
+
+.loginForm {
+  align-items: center;
+}
+
+.loginForm input{
+  display: block;
+  color: rgb(61, 61, 61);
+}
+
+@media(max-width: 800px){
+  .login{
+    width: 90%;
+    padding: 0;
+  }
+
+  .loginForm input {
+    height: 20px;
+  }
+}
