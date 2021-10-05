@@ -1,7 +1,7 @@
 ## Descents homepage
 
 Personal project management site.
-Users can load, upload and listen audio files.
+Users can load, upload and listen audio files and create folders.
 
 ![descents1](https://user-images.githubusercontent.com/51227125/124937671-48c68380-e010-11eb-82ef-866bd371c9f0.png)
 
